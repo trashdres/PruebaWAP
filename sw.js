@@ -1,8 +1,8 @@
 /*Imports*/
 importScripts('js/sw-utils.js');
 
-const CACHE_ESTATICO = 'static-v3';
-const CACHE_DINAMICO = 'dynamic-v1';
+const CACHE_ESTATICO = 'static-v4';
+const CACHE_DINAMICO = 'dynamic-v2';
 const CACHE_INMUTABLE = 'inmutable-v1';
 
 const APP_SHELL = [
@@ -33,6 +33,9 @@ self.addEventListener('activate', e =>{
 	const activacion = caches.keys().then( llaves =>{
 		llaves.forEach( llave =>{
 			if( llave !== CACHE_ESTATICO && llave.includes('static') ){
+				return caches.delete(llave);
+			}
+			if( llave !== CACHE_DINAMICO && llave.includes('dynamic') ){
 				return caches.delete(llave);
 			}
 		})
