@@ -1,5 +1,10 @@
+let url = window.location.href;
+let SWLocation = "/PruebaWAP/sw.js";
 if( navigator.serviceWorker ){
-    navigator.serviceWorker.register('/sw.js');
+    if(url.includes('localhost')){
+        SWLocation = '/sw.js';
+    }
+    navigator.serviceWorker.register( SWLocation );
 }
 
 
