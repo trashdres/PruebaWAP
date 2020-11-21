@@ -1,6 +1,6 @@
 {
     "short_name": "NachoMarket",
-    "name": "Tienda online Nachomarket",
+    "name": "Nachomarket Tienda Online",
     "start_url": "index.html",
     "background_color": "#3498DB",
     "display": "standalone" ,
@@ -10,42 +10,50 @@
         {
             "src": "img/icons/icon-72x72.png",
             "type": "imagen/png",
-            "sizes": "72x72"
+            "sizes": "72x72",
+            "purpose": "maskable"
         },
         {
             "src": "img/icons/icon-96x96.png",
             "type": "imagen/png",
-            "sizes": "96x96"
+            "sizes": "96x96",
+            "purpose": "maskable"
         },
         {
             "src": "img/icons/icon-128x128.png",
             "type": "imagen/png",
-            "sizes": "128x128"
+            "sizes": "128x128",
+            "purpose": "maskable"
         },
         {
             "src": "img/icons/icon-144x144.png",
             "type": "imagen/png",
-            "sizes": "144x144"
+            "sizes": "144x144",
+            "purpose": "maskable"
         },
         {
             "src": "img/icons/icon-152x152.png",
             "type": "imagen/png",
-            "sizes": "152x152"
+            "sizes": "152x152",
+            "purpose": "maskable"
         },
         {
             "src": "img/icons/icon-192x192.png",
             "type": "imagen/png",
-            "sizes": "192x192"
+            "sizes": "192x192",
+            "purpose": "maskable"
         },
         {
             "src": "img/icons/icon-384x384.png",
             "type": "imagen/png",
-            "sizes": "384x384"
+            "sizes": "384x384",
+            "purpose": "maskable"
         },
         {
             "src": "img/icons/icon-512x512.png",
             "type": "imagen/png",
-            "sizes": "512x512"
+            "sizes": "512x512",
+            "purpose": "maskable"
         }
     ]
   }
